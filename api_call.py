@@ -11,6 +11,7 @@ PASSWORD = '%40Sri2kanth'
 WAREHOUSE = 'COMPUTE_WH'
 DATABASE = 'PANDASPROJ'
 SCHEMA = 'RAW'
+##
 
 # Establishing a connection to Snowflake
 conn_str = f'snowflake://{USER}:{PASSWORD}@{ACCOUNT}/{DATABASE}/{SCHEMA}?warehouse={WAREHOUSE}'
